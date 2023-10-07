@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors(
     {
-        origin : ["https://pnv-blog-app.netlify.app"],
+        origin : ["https://blog-app-frontendapi.vercel.app/"],
         method : ["POST"."GET"],
         credentials: true
     }
