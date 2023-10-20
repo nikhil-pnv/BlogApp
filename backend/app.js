@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors(
     {
         origin : ["https://blog-app-frontendapi.vercel.app"],
-        method : ["POST"."GET"],
+        method : ["POST","GET"],
         credentials: true
     }
 ));
