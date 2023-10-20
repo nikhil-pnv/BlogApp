@@ -20,7 +20,7 @@ const AddBlog = () => {
     };
 
     const sendRequest = async() => {
-        const res = await axios.post("https://blog-app-api-phi.vercel.app/api/blog/add", {
+        const res = await axios.post("https://pnv-blog.onrender.com/api/blog/add", {
             title: inputs.title,
             description: inputs.description,
             image: inputs.image,
