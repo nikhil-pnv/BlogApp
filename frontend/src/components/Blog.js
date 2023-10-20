@@ -11,7 +11,7 @@ const Blog = ({ title, description, imageURL, userName, isUser, id }) => {
     };
     const deleteRequest = async() => {
         const res = await axios
-            .delete(`https://blog-app-api-phi.vercel.app/api/blog/${id}`)
+            .delete(`https://pnv-blog.onrender.com/api/blog/${id}`)
             .catch((err) => console.log(err));
         const data = await res.data;
         return data;
